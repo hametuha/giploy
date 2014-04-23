@@ -1,0 +1,312 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Giploy\n"
+"POT-Creation-Date: 2014-04-24 01:59+0900\n"
+"PO-Revision-Date: 2014-04-24 01:59+0900\n"
+"Last-Translator: Takahashi Fumiki <info@takahashifumiki.com>\n"
+"Language-Team: Hametuha inc. <takahshi.fumiki@hametuha.co.jp>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../app/Giploy/Admin.php:39
+msgid ""
+"Are you sure to unregister this repository? Don't worry, directory it self "
+"will never be deleted."
+msgstr ""
+
+#: ../app/Giploy/Admin.php:40
+msgid "Please register this Payload URL to your repository."
+msgstr ""
+
+#: ../app/Giploy/Admin.php:59
+msgid "All Repositories"
+msgstr ""
+
+#: ../app/Giploy/Admin.php:59
+msgid "Repositories"
+msgstr ""
+
+#: ../app/Giploy/Admin.php:61
+msgid "Register Git Repository"
+msgstr ""
+
+#: ../app/Giploy/Admin.php:61 ../app/templates/register.php:51
+msgid "Register"
+msgstr ""
+
+#: ../app/Giploy/Admin.php:104
+msgid "Update Git binary path."
+msgstr ""
+
+#: ../app/Giploy/Admin.php:106
+msgid "Nothing has been changed."
+msgstr ""
+
+#: ../app/Giploy/Admin.php:114
+#, php-format
+msgid "<code>%s</code> is not direcotry."
+msgstr ""
+
+#: ../app/Giploy/Admin.php:118
+#, php-format
+msgid "<code>%s</code> doesn't seem to be a git repository."
+msgstr ""
+
+#: ../app/Giploy/Admin.php:131
+#, php-format
+msgid "Repository added. You can find it on <a href=\"%s\">your list</a>."
+msgstr ""
+
+#: ../app/Giploy/Admin.php:147
+#, php-format
+msgid "Mmm...<code>%s</code> was not registered."
+msgstr ""
+
+#: ../app/Giploy/Admin.php:150
+#, php-format
+msgid "<code>%s</code> was successfully deleted."
+msgstr ""
+
+#: ../app/Giploy/Admin.php:178
+msgid "This path is already registered"
+msgstr ""
+
+#: ../app/Giploy/Admin.php:185
+#, fuzzy
+msgid "This type is not allowed."
+msgstr "Post Type"
+
+#: ../app/Giploy/Admin.php:197
+#, php-format
+msgid ""
+"Git binary path is not defined. Please set on <a href=\"%s\">setting page</"
+"a>."
+msgstr ""
+
+#: ../app/Giploy/Git/Base.php:68
+msgid "Git binary path is undefined."
+msgstr ""
+
+#: ../app/Giploy/Git/Repo.php:71
+msgid "Plugin"
+msgstr ""
+
+#: ../app/Giploy/Git/Repo.php:73
+msgid "Theme"
+msgstr ""
+
+#: ../app/Giploy/Git/Repo.php:75
+msgid "Other"
+msgstr ""
+
+#: ../app/Giploy/RepoList.php:33
+msgid "Directory"
+msgstr ""
+
+#: ../app/Giploy/RepoList.php:34
+#, fuzzy
+msgid "Type"
+msgstr "Post Type"
+
+#: ../app/Giploy/RepoList.php:35
+msgid "Permission"
+msgstr ""
+
+#: ../app/Giploy/RepoList.php:36
+msgid "Remote"
+msgstr ""
+
+#: ../app/Giploy/RepoList.php:37
+msgid "Branch"
+msgstr ""
+
+#: ../app/Giploy/RepoList.php:38
+msgid "Latest Commit"
+msgstr ""
+
+#: ../app/Giploy/RepoList.php:69
+msgid "No repository is registered."
+msgstr ""
+
+#: ../app/Giploy/RepoList.php:93
+msgid "Get Payload URL"
+msgstr ""
+
+#: ../app/Giploy/RepoList.php:98
+msgid "Unregister"
+msgstr ""
+
+#: ../app/Giploy/RepoList.php:104
+msgid "Writable"
+msgstr ""
+
+#: ../app/Giploy/RepoList.php:106
+msgid "Not writable. Change permission."
+msgstr ""
+
+#: ../app/Giploy/RepoList.php:137
+msgid "Click hash and toggle detailed log."
+msgstr ""
+
+#: ../app/Giploy/Rewrite.php:79
+#, php-format
+msgid "%s is not registered."
+msgstr ""
+
+#: ../app/Giploy/Rewrite.php:100
+msgid "Giploy get web hook request from github. Details are below."
+msgstr ""
+
+#: ../app/Giploy/Rewrite.php:101
+msgid "This message was automatically generaged with plugin Giploy."
+msgstr ""
+
+#: ../app/Giploy/Rewrite.php:102
+#, php-format
+msgid "Executed timestamp: %s"
+msgstr ""
+
+#: ../app/Giploy/Rewrite.php:104
+#, php-format
+msgid "[Giploy] %s get request #%s"
+msgstr ""
+
+#: ../app/Giploy/Rewrite.php:144
+msgid "We got web hook. Thank you."
+msgstr ""
+
+#: ../app/Giploy/Rewrite.php:170
+msgid "Your request is from invalid IP address."
+msgstr ""
+
+#: ../app/templates/install.php:3
+msgid "Install Repository"
+msgstr ""
+
+#: ../app/templates/register.php:3
+msgid "Register Repository"
+msgstr ""
+
+#: ../app/templates/register.php:6
+msgid "You can register git repository on your server."
+msgstr ""
+
+#: ../app/templates/register.php:7
+msgid "Select one from plugins and themes list below."
+msgstr ""
+
+#: ../app/templates/register.php:15
+msgid "Repository to add"
+msgstr ""
+
+#: ../app/templates/register.php:21
+msgid "Themes"
+msgstr ""
+
+#: ../app/templates/register.php:22
+msgid "Plugins"
+msgstr ""
+
+#: ../app/templates/register.php:45
+msgid ""
+"Please select installed git repository. If nothing is displayed, that means "
+"no git repository in your server."
+msgstr ""
+
+#: ../app/templates/repos.php:3
+msgid "Repository list"
+msgstr ""
+
+#: ../app/templates/repos.php:8
+#, php-format
+msgid ""
+"These <a href=\"%s\">registered</a> repositories have <code>Payload URL</"
+"code> which must be set at Github."
+msgstr ""
+
+#: ../app/templates/repos.php:9
+#, php-format
+msgid "For more detail, see <a href=\"%s\">github documentation</a>."
+msgstr ""
+
+#: ../app/templates/setting.php:3
+msgid "Giploy Setting"
+msgstr ""
+
+#: ../app/templates/setting.php:9
+msgid "Git binary path"
+msgstr ""
+
+#: ../app/templates/setting.php:22
+msgid "Suggestion"
+msgstr ""
+
+#: ../app/templates/setting.php:25
+msgid "Git must be installed on your server."
+msgstr ""
+
+#: ../app/templates/setting.php:32
+msgid "Update"
+msgstr ""
+
+#: ../app/templates/setting.php:35
+msgid "What is this?"
+msgstr ""
+
+#: ../app/templates/setting.php:37
+msgid ""
+"This plugin helps github hosted theme or plugin for pulling automatically. "
+"You ought to know many things."
+msgstr ""
+
+#: ../app/templates/setting.php:40
+msgid "Install Git on your server."
+msgstr ""
+
+#: ../app/templates/setting.php:41
+msgid ""
+"Git must be installed on your server. Unfortunately, this plugin cannot do "
+"that."
+msgstr ""
+
+#: ../app/templates/setting.php:42
+msgid "Clone repository on your server."
+msgstr ""
+
+#: ../app/templates/setting.php:43
+msgid ""
+"Typical usage is for github hosted theme. Only themes and plugins which have "
+"<code>.git</code> are listed as registable directories."
+msgstr ""
+
+#: ../app/templates/setting.php:44
+msgid "Get Payload URL and register it as service hook on github."
+msgstr ""
+
+#: ../app/templates/setting.php:45
+msgid ""
+"Once repository is registered, you can get Payload URL. Go to github's "
+"repository setting and enter it as sevice hook."
+msgstr ""
+
+#: ../app/templates/setting.php:48
+msgid ""
+"If you are unsure about all these things, stop this plugin and uninstall it. "
+"This is a highly excerimental plugin."
+msgstr ""
+
+#: ../giploy.php:31
+#, php-format
+msgid ""
+"<strong>[giploy Error]</strong> Your PHP version is %s, but giploy requires "
+"5.3.0 and over. And on 5.3.*, you must set <code>short_open_tag = on</code> "
+"because <code>&lt;?=</code> tags are used here and there. For more info, see "
+"<a target=\"_blank\" href=\"%s\">PHP Manual</a>"
+msgstr ""

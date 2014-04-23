@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@import "compass";
+
+$success-green: #7ad03a;
+$error-red: #d54e21;
+
+// Change menu icon
+#toplevel_page_giploy{
+  .dashicons-admin-generic:before{
+    font-family: 'Genericons';
+    content: '\f200';
+  }
+}
+
+.giploy-faq{
+  @include border-radius(3px);
+  margin: 1.5em 0;
+  background-color: #fff;
+  padding: 1em;
+  dt{
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-bottom: 0.5em;
+  }
+  dd{
+    margin-left: 0;
+    margin-bottom: 1.5em;
+  }
+}
+
+span.ok{
+  color: $success-green;
+}
+span.error{
+  color: $error-red;
+}
+
+.giploy-sample{
+  img{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+}
+
+// info panel
+.giploy-info{
+  margin: 1.5em 0;
+  min-height: 60px;
+  padding: 0 0 0 64px;
+  background-color: $success-green;
+  position: relative;
+  .genericon{
+    position: absolute;
+    color: #fff;
+    font-size: 32px;
+    top: 50%;
+    left: 16px;
+    margin-top: -16px;
+  }
+  p{
+    margin: 0;
+    padding: 1em 1em;
+    min-height: 40px;
+    background-color: #fff;
+  }
+}
+
+.column-commit{
+  code{
+    cursor: pointer;
+    &:hover{
+      background-color: #06c;
+      color: #fff;
+    }
+    &:active{
+      color: #fff;
+      background-color: red;
+    }
+  }
+  pre{
+    display: none;
+    background-color: #2c2c2c;
+    color: #fff;
+    padding: 0.5em;
+    margin: 0.5em 0 0;
+    &.toggle{
+      display: block;
+    }
+  }
+}

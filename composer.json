@@ -1,0 +1,5 @@
+{
+    "require": {
+        "teqneers/php-stream-wrapper-for-git": "v1.0.0"
+    }
+}

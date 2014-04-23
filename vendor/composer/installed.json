@@ -1,0 +1,54 @@
+[
+    {
+        "name": "teqneers/php-stream-wrapper-for-git",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/teqneers/PHP-Stream-Wrapper-for-Git.git",
+            "reference": "ee3538f6cd0940f3e475e198b02f15b47ffc421b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/teqneers/PHP-Stream-Wrapper-for-Git/zipball/ee3538f6cd0940f3e475e198b02f15b47ffc421b",
+            "reference": "ee3538f6cd0940f3e475e198b02f15b47ffc421b",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "knplabs/gaufrette": "*",
+            "phpunit/phpunit": "3.7.*"
+        },
+        "suggest": {
+            "knplabs/gaufrette": "to use the Gaufrette adapter"
+        },
+        "time": "2014-04-20 10:09:39",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "TQ": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Stefan Gehrig",
+                "email": "gehrig@teqneers.de",
+                "homepage": "http://opensource.teqneers.de/"
+            }
+        ],
+        "description": "Git Stream Wrapper for PHP",
+        "homepage": "https://github.com/teqneers/PHP-Stream-Wrapper-for-Git",
+        "keywords": [
+            "git",
+            "stream-wrapper",
+            "streamwrapper"
+        ]
+    }
+]

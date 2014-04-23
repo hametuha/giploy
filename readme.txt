@@ -1,4 +1,4 @@
-# Giploy
+=== Giploy ===
 
 Contributors: Takahashi_Fumiki  
 Tags: github  
@@ -8,21 +8,21 @@ Stable tag: 1.0
 
 WordPress Plugin to deploy with github.
 
-## Description
+== Description ==
 
 This plugin parse gihub's [web hook](https://help.github.com/articles/creating-webhooks) and update your github-hosted theme or plugin automatically.
 
 **NOTICE: PHP5.3 is required!**
 
-## Installation
+== Installation ==
 
 1. Download zip and unpack it.
 2. Upload to your plugin folder.
 3. Activate it from admin panel.
 4. Register your git repository on your server.
 
-## Changelog
+== Changelog ==
 
-### 1.0
+= 1.0 =
 
 * First release. I'll wait for your.

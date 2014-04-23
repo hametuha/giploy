@@ -1,0 +1,331 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2014-04-24 01:59+0900\n"
+"PO-Revision-Date: 2014-04-24 02:25+0900\n"
+"Last-Translator: Takahashi Fumiki <info@takahashifumiki.com>\n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../app/Giploy/Admin.php:39
+msgid ""
+"Are you sure to unregister this repository? Don't worry, directory it self "
+"will never be deleted."
+msgstr ""
+"このリポジトリを登録解除してよろしいですか？　ディレクトリは削除されないの"
+"で、心配しないでください。"
+
+#: ../app/Giploy/Admin.php:40
+msgid "Please register this Payload URL to your repository."
+msgstr "リポジトリにPayload URLを登録してください。"
+
+#: ../app/Giploy/Admin.php:59
+msgid "All Repositories"
+msgstr "すべてのリポジトリ"
+
+#: ../app/Giploy/Admin.php:59
+msgid "Repositories"
+msgstr "リポジトリ"
+
+#: ../app/Giploy/Admin.php:61
+msgid "Register Git Repository"
+msgstr "Gitリポジトリを登録する"
+
+#: ../app/Giploy/Admin.php:61 ../app/templates/register.php:51
+msgid "Register"
+msgstr "登録"
+
+#: ../app/Giploy/Admin.php:104
+msgid "Update Git binary path."
+msgstr "Gitのバイナリパスを更新"
+
+#: ../app/Giploy/Admin.php:106
+msgid "Nothing has been changed."
+msgstr "変更点がありませんでした。"
+
+#: ../app/Giploy/Admin.php:114
+#, php-format
+msgid "<code>%s</code> is not direcotry."
+msgstr "<code>%s</code>はディレクトリではありません。"
+
+#: ../app/Giploy/Admin.php:118
+#, php-format
+msgid "<code>%s</code> doesn't seem to be a git repository."
+msgstr "<code>%s</code>はgitリポジトリではないようです。"
+
+#: ../app/Giploy/Admin.php:131
+#, php-format
+msgid "Repository added. You can find it on <a href=\"%s\">your list</a>."
+msgstr ""
+"リポジトリが追加されました。<a href=\"%s\">一覧</a>で見ることができます。"
+
+#: ../app/Giploy/Admin.php:147
+#, php-format
+msgid "Mmm...<code>%s</code> was not registered."
+msgstr "うーん、<code>%s</code>は登録されていないようです。"
+
+#: ../app/Giploy/Admin.php:150
+#, php-format
+msgid "<code>%s</code> was successfully deleted."
+msgstr "<code>%s</code>は削除されました。"
+
+#: ../app/Giploy/Admin.php:178
+msgid "This path is already registered"
+msgstr "このパスはすでに登録済みです。"
+
+#: ../app/Giploy/Admin.php:185
+msgid "This type is not allowed."
+msgstr "このタイプは許可されていません。"
+
+#: ../app/Giploy/Admin.php:197
+#, php-format
+msgid ""
+"Git binary path is not defined. Please set on <a href=\"%s\">setting page</"
+"a>."
+msgstr ""
+"Gitバイナリパスが定義されていません。<a href=\"%s\">設定ページ</a>で登録して"
+"ください。"
+
+#: ../app/Giploy/Git/Base.php:68
+msgid "Git binary path is undefined."
+msgstr "Gitバイナリパスが定義されていません。"
+
+#: ../app/Giploy/Git/Repo.php:71
+msgid "Plugin"
+msgstr "プラグイン"
+
+#: ../app/Giploy/Git/Repo.php:73
+msgid "Theme"
+msgstr "テーマ"
+
+#: ../app/Giploy/Git/Repo.php:75
+msgid "Other"
+msgstr "その他"
+
+#: ../app/Giploy/RepoList.php:33
+msgid "Directory"
+msgstr "ディレクトリ"
+
+#: ../app/Giploy/RepoList.php:34
+msgid "Type"
+msgstr "種別"
+
+#: ../app/Giploy/RepoList.php:35
+msgid "Permission"
+msgstr "許可"
+
+#: ../app/Giploy/RepoList.php:36
+msgid "Remote"
+msgstr "リモート"
+
+#: ../app/Giploy/RepoList.php:37
+msgid "Branch"
+msgstr "ブランチ"
+
+#: ../app/Giploy/RepoList.php:38
+msgid "Latest Commit"
+msgstr "最新コミット"
+
+#: ../app/Giploy/RepoList.php:69
+msgid "No repository is registered."
+msgstr "リポジトリが登録されていません。"
+
+#: ../app/Giploy/RepoList.php:93
+msgid "Get Payload URL"
+msgstr "Payload URLを取得"
+
+#: ../app/Giploy/RepoList.php:98
+msgid "Unregister"
+msgstr "登録解除"
+
+#: ../app/Giploy/RepoList.php:104
+msgid "Writable"
+msgstr "書き込み可能"
+
+#: ../app/Giploy/RepoList.php:106
+msgid "Not writable. Change permission."
+msgstr "書き込み不可。要パーミッション変更。"
+
+#: ../app/Giploy/RepoList.php:137
+msgid "Click hash and toggle detailed log."
+msgstr "ハッシュをクリックするとログの表示切替ができます。"
+
+#: ../app/Giploy/Rewrite.php:79
+#, php-format
+msgid "%s is not registered."
+msgstr "%sは登録されていません。"
+
+#: ../app/Giploy/Rewrite.php:100
+msgid "Giploy get web hook request from github. Details are below."
+msgstr "Giployはgithubからのweb hookを取得します。詳細は以下。"
+
+#: ../app/Giploy/Rewrite.php:101
+msgid "This message was automatically generaged with plugin Giploy."
+msgstr "このメッセージはGiployによって自動的に生成されました。"
+
+#: ../app/Giploy/Rewrite.php:102
+#, php-format
+msgid "Executed timestamp: %s"
+msgstr "実行時間: %s"
+
+#: ../app/Giploy/Rewrite.php:104
+#, php-format
+msgid "[Giploy] %s get request #%s"
+msgstr "[Giploy] %sがリクエストを受け取りました #%s"
+
+#: ../app/Giploy/Rewrite.php:144
+msgid "We got web hook. Thank you."
+msgstr "web hookを受け取りました。ありがとうございます。"
+
+#: ../app/Giploy/Rewrite.php:170
+msgid "Your request is from invalid IP address."
+msgstr "リクエストが不正なIPから行われています。"
+
+#: ../app/templates/install.php:3
+msgid "Install Repository"
+msgstr "リポジトリをインストール"
+
+#: ../app/templates/register.php:3
+msgid "Register Repository"
+msgstr "リポジトリ登録"
+
+#: ../app/templates/register.php:6
+msgid "You can register git repository on your server."
+msgstr "サーバーにあるリポジトリを登録することができます。"
+
+#: ../app/templates/register.php:7
+msgid "Select one from plugins and themes list below."
+msgstr "下にあるリストからプラグインまたはテーマを選んでください。"
+
+#: ../app/templates/register.php:15
+msgid "Repository to add"
+msgstr "追加するリポジトリ"
+
+#: ../app/templates/register.php:21
+msgid "Themes"
+msgstr "テーマ"
+
+#: ../app/templates/register.php:22
+msgid "Plugins"
+msgstr "プラグイン"
+
+#: ../app/templates/register.php:45
+msgid ""
+"Please select installed git repository. If nothing is displayed, that means "
+"no git repository in your server."
+msgstr ""
+"インストールされたgitリポジトリを選んでください。何も表示されていない場合、"
+"サーバにgitリポジトリがないことを意味します。"
+
+#: ../app/templates/repos.php:3
+msgid "Repository list"
+msgstr "リポジトリ一覧"
+
+#: ../app/templates/repos.php:8
+#, php-format
+msgid ""
+"These <a href=\"%s\">registered</a> repositories have <code>Payload URL</"
+"code> which must be set at Github."
+msgstr ""
+"これらの<a href=\"%s\">登録</a>されたリポジトリは<code>Payload URL</code>を"
+"持っています。Githubで必要です。"
+
+#: ../app/templates/repos.php:9
+#, php-format
+msgid "For more detail, see <a href=\"%s\">github documentation</a>."
+msgstr "詳細は<a href=\"%s\">githubドキュメンテーション</a>をご覧下さい。"
+
+#: ../app/templates/setting.php:3
+msgid "Giploy Setting"
+msgstr "Giploy設定"
+
+#: ../app/templates/setting.php:9
+msgid "Git binary path"
+msgstr "Gitバイナリパス"
+
+#: ../app/templates/setting.php:22
+msgid "Suggestion"
+msgstr "推測"
+
+#: ../app/templates/setting.php:25
+msgid "Git must be installed on your server."
+msgstr "Gitがサーバにインストールされている必要があります。"
+
+#: ../app/templates/setting.php:32
+msgid "Update"
+msgstr "更新"
+
+#: ../app/templates/setting.php:35
+msgid "What is this?"
+msgstr "これはなに？"
+
+#: ../app/templates/setting.php:37
+msgid ""
+"This plugin helps github hosted theme or plugin for pulling automatically. "
+"You ought to know many things."
+msgstr ""
+"このプラグインはgithubに登録されているテーマやプラグインを自動で更新するのに"
+"役立ちます。予備知識は沢山必要です。"
+
+#: ../app/templates/setting.php:40
+msgid "Install Git on your server."
+msgstr "サーバにGitをインストールする。"
+
+#: ../app/templates/setting.php:41
+msgid ""
+"Git must be installed on your server. Unfortunately, this plugin cannot do "
+"that."
+msgstr ""
+"Gitはサーバにインストールされていなくてはなりません。残念ながら、このプラグイ"
+"ンではインストールすることができません。"
+
+#: ../app/templates/setting.php:42
+msgid "Clone repository on your server."
+msgstr "サーバにリポジトリをクローンする。"
+
+#: ../app/templates/setting.php:43
+msgid ""
+"Typical usage is for github hosted theme. Only themes and plugins which have "
+"<code>.git</code> are listed as registable directories."
+msgstr ""
+"よくある使い方はgithubにホスティングされているテーマです。<code>.git</code>を"
+"持つプラグインとテーマだけが登録可能なディレクトリとして表示されます。"
+
+#: ../app/templates/setting.php:44
+msgid "Get Payload URL and register it as service hook on github."
+msgstr "Payload URLを取得し、githubのサービスフックとして登録する。"
+
+#: ../app/templates/setting.php:45
+msgid ""
+"Once repository is registered, you can get Payload URL. Go to github's "
+"repository setting and enter it as sevice hook."
+msgstr ""
+"リポジトリが登録されたら、Payload URLが取得できます。githubのリポジトリ設定へ"
+"行き、サービスフックとして登録してください。"
+
+#: ../app/templates/setting.php:48
+msgid ""
+"If you are unsure about all these things, stop this plugin and uninstall it. "
+"This is a highly excerimental plugin."
+msgstr ""
+"以上のことがよくわからない場合、プラグインを停止してアンインストールしてくだ"
+"さい。これはとても実験的なプラグインです。"
+
+#: ../giploy.php:31
+#, php-format
+msgid ""
+"<strong>[giploy Error]</strong> Your PHP version is %s, but giploy requires "
+"5.3.0 and over. And on 5.3.*, you must set <code>short_open_tag = on</code> "
+"because <code>&lt;?=</code> tags are used here and there. For more info, see "
+"<a target=\"_blank\" href=\"%s\">PHP Manual</a>"
+msgstr ""
+"<strong>[giploy Error]</strong> あなたのPHPバージョンは%sですが、giployは"
+"5.3.0以上が必須です。5.3.*の場合は<code>short_open_tag = on</code>にしなけれ"
+"ばなりません。<code>&lt;?=</code>タグがいたるところで使われているからです。詳"
+"しくは<a target=\"_blank\" href=\"%s\">PHPマニュアル</a>をご覧下さい。"
