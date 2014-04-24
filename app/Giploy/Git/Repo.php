@@ -43,7 +43,19 @@ class Repo extends Base
      * @return string
      */
     public function pull(){
-        return $this->get_stdout($this->abspath, 'pull');
+        try{
+            // Do pull
+            $out = $this->get_stdout($this->abspath, 'pull');
+            // Check submodules
+            $modules_out = trim($this->get_stdout($this->abspath, 'submodule'));
+            if( !empty($modules_out) ){
+                // Submodules exist. Try update them.
+                $out .= $this->get_stdout($this->abspath, 'submodule', array('update'));
+            }
+        }catch ( \Exception $e ){
+            $out = $e->getMessage();
+        }
+        return $out;
     }
 
     /**

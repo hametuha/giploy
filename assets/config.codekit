@@ -20,12 +20,34 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/js\/giploy-admin.js": {
+	"\/images\/example.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76887,
+		"inputAbbreviatedPath": "\/images\/example.png",
+		"outputAbbreviatedPath": "\/images\/example.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/js\/giploy-table.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/giploy-admin.js",
-		"outputAbbreviatedPath": "\/js\/giploy-admin.min.js",
+		"inputAbbreviatedPath": "\/js\/giploy-table.js",
+		"outputAbbreviatedPath": "\/js\/giploy-table.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/giploy-table.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/giploy-table.min.js",
+		"outputAbbreviatedPath": "\/js\/giploy-table.min.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

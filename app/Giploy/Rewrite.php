@@ -90,8 +90,8 @@ class Rewrite extends Pattern\Singleton
                     }else{
                         $data = $_POST;
                     }
-                    // Do action
-                    do_action('giploy_pull', $headers, $body);
+                    // Do action bedore pull is done.
+                    do_action('giploy_before_pull', $headers, $data);
                     // Pull
                     $stdout = $repo->pull();
                     // Make mail string
