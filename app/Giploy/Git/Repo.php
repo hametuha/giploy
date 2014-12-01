@@ -50,7 +50,7 @@ class Repo extends Base
             $modules_out = trim($this->get_stdout($this->abspath, 'submodule'));
             if( !empty($modules_out) ){
                 // Submodules exist. Try update them.
-                $out .= $this->get_stdout($this->abspath, 'submodule', array('update'));
+                $out .= $this->get_stdout($this->abspath, 'submodule', array('update', '--init'));
             }
         }catch ( \Exception $e ){
             $out = $e->getMessage();
