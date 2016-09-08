@@ -101,7 +101,7 @@ class Rewrite extends Pattern\Singleton
                     $footer = $this->__('This message was automatically generaged with plugin Giploy.');
                     $date = sprintf($this->__('Executed timestamp: %s'), current_time('mysql'));
                     $name = get_bloginfo('name');
-                    $subject = sprintf($this->__('[Giploy] %s get request #%s'), $name, $headers['X-Github-Delivery']);
+                    $subject = sprintf($this->__('[Giploy] %s get request #%s'), $name, isset($headers['X-GitHub-Delivery']) ? $headers['X-Github-Delivery'] : '');
                     $body = <<<EOS
 To {$name} admin
 
@@ -157,17 +157,44 @@ EOS;
     }
 
     /**
+     * Get Remote IP address
+     *
+     * @return string
+     */
+    private function auto_reverse_proxy_remote_ip(){
+        $remote_addr = $_SERVER['REMOTE_ADDR'];
+        if (!empty($_SERVER['X_FORWARDED_FOR'])) {
+            $X_FORWARDED_FOR = explode(',', $_SERVER['X_FORWARDED_FOR']);
+            if (!empty($X_FORWARDED_FOR)) {
+                $remote_addr = trim($X_FORWARDED_FOR[0]);
+            }
+        }
+        /*
+        * Some php environments will use the $_SERVER['HTTP_X_FORWARDED_FOR'] 
+        * variable to capture visitor address information.
+        */
+        elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+            $HTTP_X_FORWARDED_FOR= explode(',', $_SERVER['HTTP_X_FORWARDED_FOR']);
+            if (!empty($HTTP_X_FORWARDED_FOR)) {
+                $remote_addr = trim($HTTP_X_FORWARDED_FOR[0]);
+            }
+        }
+        return preg_replace('/[^0-9a-f:\., ]/si', '', $remote_addr);
+    }
+
+    /**
      * Test IP address
      *
      * @throws \Exception
      * @return bool
      */
     private function check_ip(){
-        if( WP_DEBUG && '127.0.0.1' == $_SERVER['REMOTE_ADDR'] ){
+        $remote_addr = $this->auto_reverse_proxy_remote_ip();
+        if( WP_DEBUG && '127.0.0.1' == $remote_addr ){
             return true;
         }
         if( !isset($_SERVER['REMOTE_ADDR'])
-            || !$this->cidr_includes($_SERVER['REMOTE_ADDR'], $this->cidr)
+            || !$this->cidr_includes($remote_addr, $this->cidr)
         ){
             throw new \Exception($this->__('Your request is from invalid IP address.'), 403);
         }
